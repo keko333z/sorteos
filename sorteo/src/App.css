@@ -1,0 +1,44 @@
+.app-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: start;
+    background-color: rgb(218, 63, 63);
+    min-height: 1200px; 
+    
+    
+}
+.results{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    min-height: 600px;
+    padding-bottom: 20px;
+}
+.results li{
+ list-style-type:initial;
+ width: 85%;
+}
+.results-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    padding: 20px;
+    border-radius: 10px;
+}
+.textarea-div{
+    width: 50%;
+    min-height: 600px;
+    display: block;
+  
+}
+.textarea{
+    width:100%;
+    min-height: 500px;
+    border-radius: 10px;
+}
